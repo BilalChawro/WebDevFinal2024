@@ -1,0 +1,201 @@
+
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+:root {
+  --color: rgb(63 63 63);
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  overflow-x:hidden;
+  background-color: #18161e;
+  color: white;
+
+}
+
+a {
+
+	color: red;
+	text-decoration: none;
+}
+h1 {
+  color: white;
+}
+.page {
+  width:100vw;
+  height:100vh;
+  perspective:1px;
+  perspective-origin: center center;
+  overflow-x:hidden;
+}
+
+.overflow {
+  position:absolute;
+  width:100vw;
+  height:60vh;
+  top:120vh;
+  background-color: #18161e;
+  color: white;
+  text-align:center;
+
+}
+
+h4	{
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 0px;
+}
+h5{
+	font-size: 3rem;
+}
+
+h3{
+	color: black;
+}
+p{
+	color:black;
+}
+#parallax {
+  transform-style: preserve-3d;
+  height:120vh;
+}
+
+.keyart_layer {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#button{
+	color: white;
+}
+
+#button:hover{
+	transform: scale(1.2);
+}
+
+
+
+.parallax-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  background-image: url("fire.gif");
+
+  background-position: center;
+  background-size: cover;
+  color: white;
+  row-gap: 4rem;
+
+  text-align: center;
+}
+
+.buffer {
+  width: 100%;
+  min-height: 20vh;
+  background-image: linear-gradient(#18161e, black);
+}
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url("black.jpg");
+  gap: 1.6em;
+}
+
+
+
+
+
+.card {
+  display: flex;
+  max-width: 320px;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 1rem;
+  border-radius: 0.5em;
+
+  background-color: white;
+  box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 0.3em;
+  background-position: center;
+  background-size: cover;
+}
+
+.card:nth-of-type(1) .card-img {
+  background-image: url("smog.png");
+}
+
+.card:nth-of-type(2) .card-img {
+  background-image: url("trash.jpg");
+}
+.card:nth-of-type(3) .card-img {
+  background-image: url("light.jpg");
+}
+
+.card:nth-of-type(4) .card-img {
+  background-image: url("nature.jpg");
+}
+
+#keyart-0 {
+  background-image: url('p0.png');
+  background-color: #ffaf1b;
+  transform:translate3d(-11px,-46px,-1.3px) scale(2.3);
+}
+#keyart-1 {
+  background-image: url('p1.png');
+  transform:translate3d(0,-47px,-.7px) scale(1.7);
+}
+#keyart-2 {
+  background-image: url('p2.png');
+  transform:translate3d(0,-98px,-.4px) scale(1.6);
+}
+#keyart-3 {
+  background-image: url('p3.png');
+  transform:translate3d(0,-2px,-.1px) scale(1.1);
+}
+#keyart-4 {
+  background-image: url('p4.png');
+  transform:translate3d(0,35px,.1px) scale(.9);
+}
+#keyart-5 {
+  background-image: url('p5.png');
+  transform:translate3d(0,84px,.2px) scale(.8);
+}
+#keyart-6 {
+  background-image: url('p6.png');
+  transform:translate3d(0, 106px,.3px) scale(.7);
+}
+#keyart-7 {
+  background-image: url('p7.png');
+  transform:translate3d(0,106px,.38px) scale(.65);
+}
+#keyart-8 {
+  background-image: url('p8.png');
+  transform:translate3d(0, 180px,.45px) scale(.8);
+}
+#keyart-9 {
+  background-image: url('p9.png');
+  transform:translate3d(0, 180px,.45px) scale(.8);
+}
+
